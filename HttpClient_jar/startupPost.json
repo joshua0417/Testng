@@ -1,0 +1,61 @@
+[
+  {
+    "description":"模拟一个没有参数get请求",
+    "request":{
+      "uri":"/postDemo",
+      "method":"post"
+    },
+    "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text":"这是一个没有参数的get请求！"
+    }
+
+  },
+  {
+    "description": "模拟一个带参数的post请求",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "queries": {
+        "name": "MOMO",
+        "age": "18",
+        "add": "buzhidao"
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text":"这是一个带参数的get请求！！@#￥%……&*"
+    }
+
+  },
+  {
+    "description": "模拟一个带cookies和参数的post请求",
+    "request": {
+      "uri": "/postwithcookies",
+      "method": "post",
+      "queries": {
+        "name": "MOMO",
+        "age": "18",
+        "add": "buzhidao"
+      },
+      "cookies": {
+        "loginCode": "250"
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "status": "200",
+      "json": {
+        "loginTime": "2222222222222222",
+        "loginIP": "192.168.0.1",
+        "message": "带cookies和参数的post请求成功返回接送数据"
+      }
+    }
+  }
+]

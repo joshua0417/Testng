@@ -39,15 +39,30 @@
     },
     "response":{
       "cookies": {
-        "status": "20000",
-        "login_123": "true",
-        "ceshi": "002",
-        "demo":"456"
+        "status": "20000"
+
       },
       "headers":{
         "Content-Type":"text/html;charset=gbk"
       },
       "text":"已经获取到cookies"
+    }
+  },
+  {
+    "description": "这是一个带cookies信息的get请求",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+
+        "status": "20000"
+      }
+    },
+    "response": {
+      "text": "这是需要携带cookies访问的get请求！",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
     }
   }
 ]
