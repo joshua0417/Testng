@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c4ae5c5-79a4-4f78-bfc3-f876f61084d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClient_jar/startupPost.json" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient_jar/startupPost.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="27" />
+            <state relative-caret-position="-487">
+              <caret line="148" column="53" lean-forward="true" selection-start-line="148" selection-start-column="53" selection-end-line="148" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HttpClient_jar/startupPost.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
+            <state relative-caret-position="768">
               <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
             </state>
           </provider>
@@ -71,9 +65,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="444" />
+    <option name="y" value="147" />
     <option name="width" value="1859" />
     <option name="height" value="1269" />
   </component>
@@ -185,24 +179,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCookiesFIrstPost.postwithcookies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.httpclient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFIrstPost" />
-      <option name="METHOD_NAME" value="postwithcookies" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyCookiesFIrstPost.postwithparams" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng" />
       <extension name="coverage">
@@ -239,6 +215,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyCookiesFIrstPost.postwithparams3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.httpclient.cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFIrstPost" />
+      <option name="METHOD_NAME" value="postwithparams3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyCookiesFIrstPost.testPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng" />
       <extension name="coverage">
@@ -260,10 +254,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MyCookiesFIrstPost" />
+        <item itemvalue="TestNG.MyCookiesFIrstPost.postwithparams3" />
         <item itemvalue="TestNG.MyCookiesFIrstPost.postwithparams2" />
         <item itemvalue="TestNG.MyCookiesFIrstPost.postwithparams" />
         <item itemvalue="TestNG.MyCookiesFIrstPost.testPost" />
-        <item itemvalue="TestNG.MyCookiesFIrstPost.postwithcookies" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +277,7 @@
       <workItem from="1590409018603" duration="149000" />
       <workItem from="1590409209764" duration="5740000" />
       <workItem from="1590455637112" duration="18441000" />
-      <workItem from="1590542036386" duration="9789000" />
+      <workItem from="1590542036386" duration="14360000" />
     </task>
     <task id="LOCAL-00001" summary="提交POST！">
       <created>1590480167888</created>
@@ -292,48 +286,63 @@
       <option name="project" value="LOCAL" />
       <updated>1590480167888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交POST！">
+      <created>1590552365197</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590552365197</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交POST！">
+      <created>1590563425399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590563425399</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 11h 02m 38s.xml">
+    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 13h 54m 53s.xml">
       <configuration name="MyCookiesFIrstPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 11h 06m 07s.xml">
+    <history-entry file="MyCookiesFIrstPost_postwithparams3 - 2020.05.27 at 14h 20m 45s.xml">
+      <configuration name="MyCookiesFIrstPost.postwithparams3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost_postwithparams3 - 2020.05.27 at 14h 24m 56s.xml">
+      <configuration name="MyCookiesFIrstPost.postwithparams3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost_postwithparams3 - 2020.05.27 at 14h 26m 16s.xml">
+      <configuration name="MyCookiesFIrstPost.postwithparams3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost_postwithparams3 - 2020.05.27 at 14h 27m 36s.xml">
+      <configuration name="MyCookiesFIrstPost.postwithparams3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost_postwithparams3 - 2020.05.27 at 14h 28m 24s.xml">
+      <configuration name="MyCookiesFIrstPost.postwithparams3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost_postwithparams3 - 2020.05.27 at 14h 28m 55s.xml">
+      <configuration name="MyCookiesFIrstPost.postwithparams3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 15h 04m 32s.xml">
       <configuration name="MyCookiesFIrstPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 11h 07m 59s.xml">
+    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 15h 07m 37s.xml">
       <configuration name="MyCookiesFIrstPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyCookiesFIrstPost_postwithparams - 2020.05.27 at 11h 09m 09s.xml">
-      <configuration name="MyCookiesFIrstPost.postwithparams" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFIrstPost_postwithparams - 2020.05.27 at 11h 10m 04s.xml">
-      <configuration name="MyCookiesFIrstPost.postwithparams" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFIrstPost_postwithparams - 2020.05.27 at 11h 16m 38s.xml">
-      <configuration name="MyCookiesFIrstPost.postwithparams" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFIrstPost_postwithparams2 - 2020.05.27 at 11h 24m 54s.xml">
-      <configuration name="MyCookiesFIrstPost.postwithparams2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFIrstPost_postwithparams2 - 2020.05.27 at 11h 26m 18s.xml">
-      <configuration name="MyCookiesFIrstPost.postwithparams2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 11h 26m 44s.xml">
-      <configuration name="MyCookiesFIrstPost" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 11h 30m 38s.xml">
+    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 15h 09m 23s.xml">
       <configuration name="MyCookiesFIrstPost" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35709000" />
+    <option name="totallyTimeSpent" value="40280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="2578" height="1410" extended-state="6" />
+    <frame x="444" y="147" width="1859" height="1269" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16054313" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22521009" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.13964687" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0682183" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.439819" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37828055" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -352,7 +361,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.44301766" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32504013" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3248869" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -495,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFirstGet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="279">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="60" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -505,15 +514,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HttpClient_jar/startupPost.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
+        <state relative-caret-position="768">
           <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="27" />
+        <state relative-caret-position="-487">
+          <caret line="148" column="53" lean-forward="true" selection-start-line="148" selection-start-column="53" selection-end-line="148" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
