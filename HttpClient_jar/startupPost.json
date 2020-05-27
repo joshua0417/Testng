@@ -18,7 +18,7 @@
     "request": {
       "uri": "/postwithparam",
       "method": "post",
-      "queries": {
+      "json": {
         "name": "MOMO",
         "age": "18",
         "add": "buzhidao"
@@ -28,7 +28,10 @@
       "headers":{
         "Content-Type":"text/html;charset=gbk"
       },
-      "text":"这是一个带参数的get请求！！@#￥%……&*"
+      "text":"这是一个带参数的get请求！！@#￥%……&*",
+      "cookies": {
+        "status": "20000"
+      }
     }
 
   },
@@ -37,20 +40,19 @@
     "request": {
       "uri": "/postwithcookies",
       "method": "post",
-      "queries": {
+      "json": {
         "name": "MOMO",
         "age": "18",
         "add": "buzhidao"
       },
       "cookies": {
-        "loginCode": "250"
+        "status": "20000"
       }
     },
     "response": {
       "headers":{
         "Content-Type":"text/html;charset=gbk"
       },
-      "status": "200",
       "json": {
         "loginTime": "2222222222222222",
         "loginIP": "192.168.0.1",

@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c4ae5c5-79a4-4f78-bfc3-f876f61084d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HttpClient_jar/startupPost.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClient_jar/startupGet.json" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient_jar/startupGet.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClient_jar/操作说明.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient_jar/操作说明.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFirstGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFirstGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/httpclient/cookies/MyCookiesFirstGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/httpclient/cookies/MyCookiesFirstGet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClient_jar/startupPost.json" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient_jar/startupPost.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,68 +22,29 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7415413">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/httpclient/cookies/UserEntity.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#161#162#0" expanded="true" />
-                    <element signature="e#188#189#0" expanded="true" />
-                    <element signature="e#228#229#0" expanded="true" />
-                    <element signature="e#260#261#0" expanded="true" />
-                    <element signature="e#316#317#0" expanded="true" />
-                    <element signature="e#354#355#0" expanded="true" />
-                    <element signature="e#384#385#0" expanded="true" />
-                    <element signature="e#414#415#0" expanded="true" />
-                    <element signature="e#440#441#0" expanded="true" />
-                    <element signature="e#478#479#0" expanded="true" />
-                    <element signature="e#508#509#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/HttpClient_jar/startupPost.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/HttpClient_jar/操作说明.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="52">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="79" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HttpClient_jar/startupPost.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,17 +63,18 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/HttpClient_jar/startupGet.json" />
         <option value="$PROJECT_DIR$/HttpClient_jar/操作说明.txt" />
-        <option value="$PROJECT_DIR$/HttpClient_jar/startupPost.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFirstGet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/UserEntity.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFirstGet.java" />
+        <option value="$PROJECT_DIR$/HttpClient_jar/startupPost.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1225" />
-    <option name="y" value="67" />
-    <option name="width" value="1624" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1859" />
     <option name="height" value="1269" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -122,6 +83,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -179,27 +141,10 @@
               <item name="httpclient" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="cookies" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-            <path>
-              <item name="Testng" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="testng" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="testng" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Testng" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="testng" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -240,7 +185,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCookiesFirstGet" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyCookiesFIrstPost.postwithcookies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng" />
       <extension name="coverage">
         <pattern>
@@ -249,25 +194,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFirstGet" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyCookiesFirstGet.testGetCookies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.httpclient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFirstGet" />
-      <option name="METHOD_NAME" value="testGetCookies" />
+      <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFIrstPost" />
+      <option name="METHOD_NAME" value="postwithcookies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -275,7 +203,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCookiesFirstGet.testGetWithCookies (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyCookiesFIrstPost.postwithparams" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng" />
       <extension name="coverage">
         <pattern>
@@ -284,8 +212,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFirstGet" />
-      <option name="METHOD_NAME" value="testGetWithCookies" />
+      <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFIrstPost" />
+      <option name="METHOD_NAME" value="postwithparams" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -293,7 +221,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCookiesFirstGet.testGetWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyCookiesFIrstPost.postwithparams2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng" />
       <extension name="coverage">
         <pattern>
@@ -302,8 +230,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFirstGet" />
-      <option name="METHOD_NAME" value="testGetWithCookies" />
+      <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFIrstPost" />
+      <option name="METHOD_NAME" value="postwithparams2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCookiesFIrstPost.testPost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.httpclient.cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFIrstPost" />
+      <option name="METHOD_NAME" value="testPost" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -314,10 +260,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MyCookiesFIrstPost" />
-        <item itemvalue="TestNG.MyCookiesFirstGet" />
-        <item itemvalue="TestNG.MyCookiesFirstGet.testGetCookies" />
-        <item itemvalue="TestNG.MyCookiesFirstGet.testGetWithCookies" />
-        <item itemvalue="TestNG.MyCookiesFirstGet.testGetWithCookies (1)" />
+        <item itemvalue="TestNG.MyCookiesFIrstPost.postwithparams2" />
+        <item itemvalue="TestNG.MyCookiesFIrstPost.postwithparams" />
+        <item itemvalue="TestNG.MyCookiesFIrstPost.testPost" />
+        <item itemvalue="TestNG.MyCookiesFIrstPost.postwithcookies" />
       </list>
     </recent_temporary>
   </component>
@@ -336,50 +282,58 @@
       <workItem from="1590402192237" duration="1374000" />
       <workItem from="1590409018603" duration="149000" />
       <workItem from="1590409209764" duration="5740000" />
-      <workItem from="1590455637112" duration="16979000" />
+      <workItem from="1590455637112" duration="18441000" />
+      <workItem from="1590542036386" duration="9789000" />
     </task>
+    <task id="LOCAL-00001" summary="提交POST！">
+      <created>1590480167888</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590480167888</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyCookiesFirstGet_testGetWithCookies - 2020.05.26 at 11h 31m 35s.xml">
-      <configuration name="MyCookiesFirstGet.testGetWithCookies" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFirstGet_testGetWithCookies - 2020.05.26 at 11h 34m 03s.xml">
-      <configuration name="MyCookiesFirstGet.testGetWithCookies" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFirstGet_testGetCookies - 2020.05.26 at 11h 34m 42s.xml">
-      <configuration name="MyCookiesFirstGet.testGetCookies" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFirstGet - 2020.05.26 at 11h 35m 38s.xml">
-      <configuration name="MyCookiesFirstGet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFirstGet_testGetCookies - 2020.05.26 at 11h 44m 22s.xml">
-      <configuration name="MyCookiesFirstGet.testGetCookies" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFirstGet - 2020.05.26 at 11h 44m 48s.xml">
-      <configuration name="MyCookiesFirstGet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFirstGet - 2020.05.26 at 11h 45m 57s.xml">
-      <configuration name="MyCookiesFirstGet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFIrstPost - 2020.05.26 at 15h 27m 45s.xml">
+    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 11h 02m 38s.xml">
       <configuration name="MyCookiesFIrstPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyCookiesFIrstPost - 2020.05.26 at 15h 47m 47s.xml">
+    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 11h 06m 07s.xml">
       <configuration name="MyCookiesFIrstPost" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyCookiesFIrstPost - 2020.05.26 at 15h 59m 21s.xml">
+    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 11h 07m 59s.xml">
+      <configuration name="MyCookiesFIrstPost" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost_postwithparams - 2020.05.27 at 11h 09m 09s.xml">
+      <configuration name="MyCookiesFIrstPost.postwithparams" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost_postwithparams - 2020.05.27 at 11h 10m 04s.xml">
+      <configuration name="MyCookiesFIrstPost.postwithparams" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost_postwithparams - 2020.05.27 at 11h 16m 38s.xml">
+      <configuration name="MyCookiesFIrstPost.postwithparams" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost_postwithparams2 - 2020.05.27 at 11h 24m 54s.xml">
+      <configuration name="MyCookiesFIrstPost.postwithparams2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost_postwithparams2 - 2020.05.27 at 11h 26m 18s.xml">
+      <configuration name="MyCookiesFIrstPost.postwithparams2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 11h 26m 44s.xml">
+      <configuration name="MyCookiesFIrstPost" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 11h 30m 38s.xml">
       <configuration name="MyCookiesFIrstPost" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24458000" />
+    <option name="totallyTimeSpent" value="35709000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1225" y="67" width="1624" height="1269" extended-state="0" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="2578" height="1410" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16054313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -387,8 +341,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27963802" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.13964687" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0682183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37828055" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,9 +350,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.16380091" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.44301766" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32760182" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32504013" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -444,6 +398,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交POST！" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交POST！" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/testng/TestngDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -456,13 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -501,37 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClient_jar/startupGet.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClient_jar/操作说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClient_jar/startupPost.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFirstGet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/httpclient/cookies/UserEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -552,10 +472,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClient_jar/操作说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="71" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClient_jar/startupGet.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFirstGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClient_jar/startupPost.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+        <state relative-caret-position="289">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
