@@ -7,6 +7,7 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.protocol.HttpClientContext;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.*;
@@ -17,6 +18,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.net.URLEncoder;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -113,13 +115,37 @@ public class MyCookiesFIrstPost {
        this.cookieStore =  client.getCookieStore();
         List<Cookie> cookieList = this.cookieStore.getCookies();
         for(int i = 0 ; i<cookieList.size(); i++){
-            System.out.println("获取数组的长度：+++++++"+cookieList.get(i));
+            System.out.println("获取数组的长度：+++++++"+cookieList.get(i)+"长度*************"+cookieList.size());
         }
 
 
     }
+    @Test
+    public void postwithparams3() throws IOException{
+        JSONObject param = new JSONObject();
+        param.put("name","MOMO");
+        param.put("age","18");
+        param.put("add","buzhidao");
+        StringEntity stringEntity = new StringEntity(param.toString());
+        String testUrl = this.url+"/postwithparam";
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        //设置POST
+        HttpPost httpPost = new HttpPost(testUrl);
+        httpPost.setHeader("Content-Type", "application/json;charset=utf8");
+        httpPost.setEntity(stringEntity);
+        HttpClientContext context = HttpClientContext.create();
+        HttpResponse httpResponse = httpClient.execute(httpPost,context);
 
-    @Test(description = "这是一个带cookie和参数的post请求",dependsOnMethods = {"postwithparams2" })
+        System.out.println(">>>>>>cookies:");
+        this.cookieStore =context.getCookieStore();
+
+       List<Cookie> cookieList = this.cookieStore.getCookies();
+        for(int i = 0 ; i<cookieList.size(); i++){
+            System.out.println("获取数组的长度：333333"+cookieList.get(i)+"长度33333333::::::"+cookieList.size());
+        }
+    }
+
+    @Test(description = "这是一个带cookie和参数的post请求",dependsOnMethods = {"postwithparams3" })
     public void postwithcookies()throws IOException {
         List<Cookie> cookieList = this.cookieStore.getCookies();
 
@@ -151,9 +177,5 @@ public class MyCookiesFIrstPost {
         } else {
             System.out.println("访问/get/with/cookies接口失败");
         }
-
-
-
-
     }
 }
