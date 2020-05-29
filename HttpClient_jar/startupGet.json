@@ -1,51 +1,48 @@
 [
   {
-    "description":"模拟一个没有参数get请求",
-    "request":{
-      "uri":"/getDemo",
-      "method":"get"
+    "description": "模拟一个没有参数get请求",
+    "request": {
+      "uri": "/getDemo",
+      "method": "get"
     },
-    "response":{
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
       },
-      "text":"这是一个没有参数的get请求！"
+      "text": "这是一个没有参数的get请求！"
     }
-
   },
   {
-    "description":"模拟一个带参数的get请求",
-    "request":{
-      "uri":"/getwithparam",
-      "method":"get",
-      "queries":{
-        "name":"huhansan",
-        "age":"18"
+    "description": "模拟一个带参数的get请求",
+    "request": {
+      "uri": "/getwithparam",
+      "method": "get",
+      "queries": {
+        "name": "huhansan",
+        "age": "18"
       }
     },
-    "response":{
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
       },
-      "text":"我胡汉三又回来了！！！！！"
+      "text": "我胡汉三又回来了！！！！！"
     }
   },
   {
-    "description":"模拟一个带cookies的get请求",
-    "request":{
-      "uri":"/getwithcookies",
-      "method":"get"
-
+    "description": "模拟一个带cookies的get请求",
+    "request": {
+      "uri": "/getwithcookies",
+      "method": "get"
     },
-    "response":{
+    "response": {
       "cookies": {
         "status": "20000"
-
       },
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
       },
-      "text":"已经获取到cookies"
+      "text": "已经获取到cookies"
     }
   },
   {
@@ -54,14 +51,13 @@
       "uri": "/get/with/cookies",
       "method": "get",
       "cookies": {
-
         "status": "20000"
       }
     },
     "response": {
       "text": "这是需要携带cookies访问的get请求！",
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
       }
     }
   }

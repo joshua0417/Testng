@@ -1,17 +1,16 @@
 [
   {
-    "description":"模拟一个没有参数get请求",
-    "request":{
-      "uri":"/postDemo",
-      "method":"post"
+    "description": "模拟一个没有参数get请求",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post"
     },
-    "response":{
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
       },
-      "text":"这是一个没有参数的get请求！"
+      "text": "这是一个没有参数的get请求！"
     }
-
   },
   {
     "description": "模拟一个带参数的post请求",
@@ -25,15 +24,14 @@
       }
     },
     "response": {
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
       },
-      "text":"这是一个带参数的get请求！！@#￥%……&*",
+      "text": "这是一个带参数的get请求！！@#￥%……&*",
       "cookies": {
         "status": "20000"
       }
     }
-
   },
   {
     "description": "模拟一个带cookies和参数的post请求",
@@ -50,8 +48,8 @@
       }
     },
     "response": {
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
       },
       "json": {
         "loginTime": "2222222222222222",

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class TestngDemo01 {
     @Test
-    public void test01(){
+    public void test01() {
 
         System.out.println("第一个testng输出");
     }

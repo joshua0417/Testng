@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c4ae5c5-79a4-4f78-bfc3-f876f61084d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testngSuit/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testngSuit/PayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testngSuit/SuiteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/suite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClient_jar/startup1.json" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient_jar/startup1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClient_jar/startupGet.json" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient_jar/startupGet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClient_jar/startupPost.json" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient_jar/startupPost.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFirstGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFirstGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testng/HttpClientDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testng/HttpClientDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testng/MyCookiesForGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testng/MyCookiesForGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testng/TestngDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testng/TestngDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/httpclient/cookies/MyCookiesFIrstPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/httpclient/cookies/MyCookiesFIrstPost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/httpclient/cookies/MyCookiesFirstGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/httpclient/cookies/MyCookiesFirstGet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testng/MyCookiesForGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testng/MyCookiesForGet.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,29 +34,46 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-487">
-              <caret line="148" column="53" lean-forward="true" selection-start-line="148" selection-start-column="53" selection-end-line="148" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HttpClient_jar/startupPost.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.42338073">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/HttpClient_jar/startupPost.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="508">
+                  <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/testngSuit/SuiteConfig.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="156">
+                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/suite.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="404">
+                  <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,14 +95,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/UserEntity.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFirstGet.java" />
-        <option value="$PROJECT_DIR$/HttpClient_jar/startupPost.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java" />
+        <option value="$PROJECT_DIR$/HttpClient_jar/startupPost.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testng/SuiteConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testng/PayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testng/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/suite.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testngSuit/SuiteConfig.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="444" />
-    <option name="y" value="147" />
+    <option name="x" value="437" />
+    <option name="y" value="71" />
     <option name="width" value="1859" />
     <option name="height" value="1269" />
   </component>
@@ -77,7 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -123,23 +163,20 @@
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="httpclient" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="testngSuit" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Testng" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="testng" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="httpclient" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cookies" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +198,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MyCookiesFIrstPost">
+  <component name="RunManager" selected="TestNG.D:/Users/dmkj/Testng/src/main/resources/suite.xml">
+    <configuration name="D:/Users/dmkj/Testng/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng" />
+      <option name="PACKAGE_NAME" value="com.testng" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyCookiesFIrstPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng" />
       <extension name="coverage">
@@ -173,24 +231,6 @@
       <option name="PACKAGE_NAME" value="com.httpclient.cookies" />
       <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFIrstPost" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyCookiesFIrstPost.postwithparams" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.httpclient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFIrstPost" />
-      <option name="METHOD_NAME" value="postwithparams" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -233,31 +273,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCookiesFIrstPost.testPost" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.httpclient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.httpclient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.httpclient.cookies.MyCookiesFIrstPost" />
-      <option name="METHOD_NAME" value="testPost" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Users/dmkj/Testng/src/main/resources/suite.xml" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.MyCookiesFIrstPost" />
         <item itemvalue="TestNG.MyCookiesFIrstPost.postwithparams3" />
         <item itemvalue="TestNG.MyCookiesFIrstPost.postwithparams2" />
-        <item itemvalue="TestNG.MyCookiesFIrstPost.postwithparams" />
-        <item itemvalue="TestNG.MyCookiesFIrstPost.testPost" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +299,10 @@
       <workItem from="1590409018603" duration="149000" />
       <workItem from="1590409209764" duration="5740000" />
       <workItem from="1590455637112" duration="18441000" />
-      <workItem from="1590542036386" duration="14360000" />
+      <workItem from="1590542036386" duration="15043000" />
+      <workItem from="1590628570937" duration="1225000" />
+      <workItem from="1590645804697" duration="1248000" />
+      <workItem from="1590715090628" duration="1912000" />
     </task>
     <task id="LOCAL-00001" summary="提交POST！">
       <created>1590480167888</created>
@@ -300,19 +325,17 @@
       <option name="project" value="LOCAL" />
       <updated>1590563425399</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="提交POST！">
+      <created>1590566209154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590566209154</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 13h 54m 53s.xml">
-      <configuration name="MyCookiesFIrstPost" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFIrstPost_postwithparams3 - 2020.05.27 at 14h 20m 45s.xml">
-      <configuration name="MyCookiesFIrstPost.postwithparams3" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesFIrstPost_postwithparams3 - 2020.05.27 at 14h 24m 56s.xml">
-      <configuration name="MyCookiesFIrstPost.postwithparams3" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="MyCookiesFIrstPost_postwithparams3 - 2020.05.27 at 14h 26m 16s.xml">
       <configuration name="MyCookiesFIrstPost.postwithparams3" configurationId="TestNG" />
     </history-entry>
@@ -334,15 +357,24 @@
     <history-entry file="MyCookiesFIrstPost - 2020.05.27 at 15h 09m 23s.xml">
       <configuration name="MyCookiesFIrstPost" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LoginTest - 2020.05.29 at 10h 07m 30s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Users_dmkj_Testng_src_main_resources_suite_xml - 2020.05.29 at 10h 10m 06s.xml">
+      <configuration name="D:/Users/dmkj/Testng/src/main/resources/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Users_dmkj_Testng_src_main_resources_suite_xml - 2020.05.29 at 10h 12m 40s.xml">
+      <configuration name="D:/Users/dmkj/Testng/src/main/resources/suite.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40280000" />
+    <option name="totallyTimeSpent" value="45348000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="444" y="147" width="1859" height="1269" extended-state="0" />
+    <frame x="437" y="71" width="1859" height="1269" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22521009" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29075631" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -359,7 +391,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.44301766" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3167421" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3248869" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -488,13 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClient_jar/操作说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="71" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HttpClient_jar/startupGet.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -514,18 +539,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HttpClient_jar/startupPost.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        <state relative-caret-position="508">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/httpclient/cookies/MyCookiesFIrstPost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
-          <caret line="148" column="53" lean-forward="true" selection-start-line="148" selection-start-column="53" selection-end-line="148" selection-end-column="53" />
+        <state relative-caret-position="515">
+          <caret line="179" column="57" selection-start-line="179" selection-start-column="57" selection-end-line="179" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClient_jar/操作说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testngSuit/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testngSuit/PayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testngSuit/SuiteConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>

@@ -22,13 +22,15 @@ import java.util.ResourceBundle;
 public class MyCookiesForGet {
     private String url;
     private ResourceBundle bundle;  //Java自带读取配置文件内容
+
     @BeforeTest
-    public void beforeTest(){   //在测试之前加载读取配置文件
+    public void beforeTest() {   //在测试之前加载读取配置文件
         bundle = ResourceBundle.getBundle("application", Locale.CHINA);
         url = bundle.getString("test.url");
-        System.out.println("获取配置文件中的值"+url);
+        System.out.println("获取配置文件中的值" + url);
 
     }
+
     @Test
     public void doGetTestOne() throws IOException {
         // 获得Http客户端(可以理解为:你得先有一个浏览器;注意:实际上HttpClient与浏览器是不一样的)
@@ -67,9 +69,6 @@ public class MyCookiesForGet {
         }
 
     }
-
-
-
 
 
 }

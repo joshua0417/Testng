@@ -16,7 +16,7 @@ import java.text.ParseException;
  * Created by shuzh on 2020/5/24.
  */
 public class HttpClientDemo01 {
-   //无参数GET
+    //无参数GET
     @Test
     public void doGetTestOne() throws IOException {
         // 获得Http客户端(可以理解为:你得先有一个浏览器;注意:实际上HttpClient与浏览器是不一样的)
